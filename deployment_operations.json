@@ -1,0 +1,53 @@
+[
+  {
+    "id": "/subscriptions/1ca9ba13-8c0f-4583-9ad6-aa0969d6d8a1/resourceGroups/computacion/providers/Microsoft.Resources/deployments/microsoft.aks-20201015223217/operations/FEC474148317CA48",
+    "operationId": "FEC474148317CA48",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Running",
+      "timestamp": "2020-10-16T03:44:54.2959831Z",
+      "duration": "PT2M12.6445331S",
+      "trackingId": "a07fb5b0-60cd-4f66-bf62-5f7f281e1e70",
+      "statusCode": "Created",
+      "targetResource": {
+        "id": "/subscriptions/1ca9ba13-8c0f-4583-9ad6-aa0969d6d8a1/resourceGroups/computacion/providers/Microsoft.ContainerService/managedClusters/parcial2",
+        "resourceType": "Microsoft.ContainerService/managedClusters",
+        "resourceName": "parcial2"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/1ca9ba13-8c0f-4583-9ad6-aa0969d6d8a1/resourceGroups/computacion/providers/Microsoft.Resources/deployments/microsoft.aks-20201015223217/operations/C5643D4C8DEE38B0",
+    "operationId": "C5643D4C8DEE38B0",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2020-10-16T03:43:56.2268076Z",
+      "duration": "PT2M44.2305831S",
+      "trackingId": "e05ef066-5113-4d50-b8df-2203af8c38ad",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/1ca9ba13-8c0f-4583-9ad6-aa0969d6d8a1/resourceGroups/DefaultResourceGroup-SCUS/providers/Microsoft.Resources/deployments/SolutionDeployment-20201015224044",
+        "resourceType": "Microsoft.Resources/deployments",
+        "resourceName": "SolutionDeployment-20201015224044"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/1ca9ba13-8c0f-4583-9ad6-aa0969d6d8a1/resourceGroups/computacion/providers/Microsoft.Resources/deployments/microsoft.aks-20201015223217/operations/61703530DE833D41",
+    "operationId": "61703530DE833D41",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2020-10-16T03:42:41.6087033Z",
+      "duration": "PT1M29.6124788S",
+      "trackingId": "d9df5814-4d7a-482a-9ce4-2e271e611c1a",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/1ca9ba13-8c0f-4583-9ad6-aa0969d6d8a1/resourceGroups/DefaultResourceGroup-SCUS/providers/Microsoft.Resources/deployments/WorkspaceDeployment-20201015224044",
+        "resourceType": "Microsoft.Resources/deployments",
+        "resourceName": "WorkspaceDeployment-20201015224044"
+      }
+    }
+  }
+]
