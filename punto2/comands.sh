@@ -32,3 +32,6 @@ kubectl delete service -l app=guestbook
 
 #no muestra nada
 kubectl get pods
+
+# para crear todo con un solo archivo
+kubectl apply -f guestbook-all-in-one.yaml
