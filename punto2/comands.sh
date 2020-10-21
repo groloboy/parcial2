@@ -15,9 +15,6 @@ kubectl get pods -l app=guestbook -l tier=frontend
 kubectl apply -f frontend-service.yaml
 kubectl get services
 
-#como hacer en azure
-minikube service frontend --url
-http://192.168.99.100:31323
 
 kubectl scale deployment frontend --replicas=5
 kubectl get pods
@@ -35,3 +32,4 @@ kubectl get pods
 
 # para crear todo con un solo archivo
 kubectl apply -f guestbook-all-in-one.yaml
+
